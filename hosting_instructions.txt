@@ -1,0 +1,52 @@
+Self-Hosting Instructions for Praison AI Agency WordPress Site
+===============================================================
+
+This guide will walk you through the steps to self-host the Praison AI Agency WordPress site.
+
+Requirements:
+- A web hosting service that supports PHP and MySQL.
+- A domain name.
+
+Steps:
+1. Choose a Hosting Service:
+   - Select a web hosting provider that supports PHP and MySQL databases. Some popular options include SiteGround, Bluehost, or WP Engine.
+
+2. Set Up Hosting Account:
+   - Sign up for an account with your chosen hosting provider.
+   - Access your hosting control panel.
+
+3. Install WordPress:
+   - Many hosting services offer a one-click WordPress installation feature. Use this to install WordPress on your hosting account.
+   - Alternatively, you can manually install WordPress by downloading it from wordpress.org and following the installation instructions.
+
+4. Upload Site Files:
+   - Extract the 'wordpress.tar.gz' file provided in this repository.
+   - Upload the extracted WordPress files to your hosting account's public_html directory using FTP/SFTP or the file manager in your hosting control panel.
+
+5. Create a MySQL Database:
+   - Use your hosting control panel to create a new MySQL database and user.
+   - Note down the database name, username, and password.
+
+6. Configure WordPress:
+   - Rename the 'wp-config-sample.php' file to 'wp-config.php'.
+   - Edit the 'wp-config.php' file to update the database details (DB_NAME, DB_USER, DB_PASSWORD) with the ones you created in the previous step.
+
+7. Import Database:
+   - Follow the database export instructions provided in 'database_export_instructions.txt' to export the database from your local WordPress installation.
+   - Import the exported database to the MySQL database you created on your hosting account.
+
+8. Update Domain Settings:
+   - Update your domain's DNS settings to point to your hosting account's server.
+   - This may involve updating the A record or nameservers.
+
+9. Finalize Installation:
+   - Once the domain's DNS settings have propagated, navigate to your domain to complete the WordPress installation process.
+   - Follow the on-screen instructions to finalize the setup.
+
+10. Verify Site Functionality:
+    - After installation, verify that the website is functioning correctly.
+    - Check all pages, links, and functionalities to ensure everything is working as expected.
+
+For detailed assistance with each step, please refer to your hosting provider's support documentation or contact their support team.
+
+Congratulations, you have now self-hosted the Praison AI Agency WordPress site!
