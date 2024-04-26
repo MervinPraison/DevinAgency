@@ -1,0 +1,17 @@
+Database Export Instructions for Praison AI Agency Website
+==========================================================
+
+To export the WordPress database for your website, you can follow these steps:
+
+1. Log in to your WordPress admin dashboard.
+2. Install a database export plugin such as "All-in-One WP Migration" or "WP-DB-Backup".
+3. Once installed, navigate to the plugin's section in your WordPress dashboard.
+4. Follow the plugin's instructions to export your WordPress database.
+5. The plugin will typically provide a way to download the database file to your computer.
+
+Please ensure that you keep the exported database file secure, as it contains sensitive information about your website.
+
+If you encounter any issues or need further assistance, please feel free to reach out.
+
+Best regards,
+Devin
